@@ -1,0 +1,636 @@
+.investSection {
+  width: 100%;
+  /* width: 120.0625rem; */
+  height: 53.1875rem;
+  flex-shrink: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.investmentStackSection {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 5rem;
+  justify-content: center;
+  width: 120.0625rem;
+  /* height: 53.1875rem; */
+  flex-shrink: 0;
+}
+.investment {
+  width: 40rem;
+  color: #f3a61d;
+  /* font-family: Gilroy; */
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 3rem;
+}
+.investment span {
+  color: #171e27;
+  /* font-family: Gilroy; */
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.elevate {
+  width: 44.75rem;
+  color: #171e27;
+  /* font-family: Gilroy; */
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.375rem;
+}
+.elevate span {
+  color: #28b570;
+  /* font-family: Gilroy; */
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.375rem;
+}
+
+.launch {
+  width: 42.8125rem;
+  color: #171e27;
+  font-family: Inter;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 3rem;
+}
+.seeProducts {
+  color: #171e27;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  padding-bottom: 3rem;
+}
+.seeProducts > span {
+  width: 1.875rem;
+  height: 1.875rem;
+  flex-shrink: 0;
+  fill: #777d85;
+}
+.seeProducts span img {
+  width: 1.375rem;
+  height: 0.72775rem;
+  flex-shrink: 0;
+  fill: #fff;
+}
+.contactUs {
+  border: none;
+  width: 11.125rem;
+  height: 3.5625rem;
+  flex-shrink: 0;
+  border-radius: 2.1875rem;
+  background: linear-gradient(99deg, #fec826 0%, #f3a61d 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #171e27;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.investmentStackSection div p {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+}
+
+.boxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: auto;
+}
+.box1 {
+  position: absolute;
+  width: 25.80125rem;
+  height: 35.03288rem;
+  transform: rotate(-14.407deg);
+  padding: 2rem;
+  flex-shrink: 0;
+  border-radius: 3.125rem;
+  background: linear-gradient(138deg, #74db96 0%, #1df5f4 99.91%);
+  z-index: 0;
+  left: 25rem;
+  top: 0;
+  bottom: 0;
+}
+.box2 {
+  position: absolute;
+  padding: 2rem;
+  width: 25.80125rem;
+  height: 35.03288rem;
+  transform: rotate(2.739deg);
+  flex-shrink: 0;
+  z-index: 1;
+  border-radius: 3.125rem;
+  background: linear-gradient(
+    337deg,
+    #c0ceed 0%,
+    #cdbfd3 7.81%,
+    #d100ce 31.77%,
+    #fc583d 44.27%,
+    #e5ccd1 71.35%,
+    #fdd8d0 78.13%,
+    #fa8a77 99.91%
+  );
+  left: 40rem;
+  top: -7rem;
+}
+.box3 {
+  position: absolute;
+  padding: 2rem;
+  width: 25.80125rem;
+  height: 35.03288rem;
+  z-index: 2;
+  transform: rotate(25.199deg);
+  flex-shrink: 0;
+  border-radius: 3.125rem;
+  background: linear-gradient(85deg, #fec974 0%, #fa8a77 99.91%);
+  left: 55rem;
+  top: 0;
+  bottom: 0;
+}
+
+/* features section */
+.FeaturesContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 120rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+.featureHeading {
+  color: #28b570;
+  /* font-family: Gilroy; */
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.featureHeading1 {
+  width: 35.875rem;
+  color: #000;
+  /* font-family: Gilroy; */
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem;
+}
+.featureText {
+  width: 40.9375rem;
+  color: #777;
+  /* font-family: Gilroy; */
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.625rem;
+}
+
+.getStartSection {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+.getStartSection button {
+  width: 11.125rem;
+  height: 3.5625rem;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 2.1875rem;
+  background: linear-gradient(99deg, #fec826 0%, #f3a61d 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #171e27;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.featuresLearnMore {
+  color: #171e27;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.featureCardSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+.connectSection {
+  display: flex;
+  width: 103.375rem;
+  height: 39.3125rem;
+  flex-shrink: 0;
+  border-radius: 6.25rem;
+  background: #171e27;
+  justify-content: left;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+.connectSection div:first-child {
+  padding: 5rem;
+}
+.connectSection div p:first-child {
+  width: 61.0625rem;
+  color: #fff;
+  /* font-family: Gilroy; */
+  font-size: 3.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.375rem;
+}
+.connectSection div p:nth-child(2) {
+  width: 52.5625rem;
+  color: #cecece;
+  /* font-family: Gilroy; */
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.connectSection div button {
+  width: 15.6875rem;
+  height: 3.5625rem;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 2.1875rem;
+  background: linear-gradient(99deg, #fec826 0%, #f3a61d 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  color: #171e27;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.handLogoDiv {
+  position: relative;
+  height: 39.3125rem;
+}
+.handLogoDiv img {
+  position: absolute;
+  bottom: 0;
+  left: -8rem;
+}
+.solutionSection {
+  width: 100rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+.solution {
+  color: #28b570;
+  /* font-family: Gilroy; */
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0 auto;
+}
+.solutionText {
+  width: 35.875rem;
+  color: #000;
+  /* font-family: Gilroy; */
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem;
+}
+.solutionCard1 {
+  width: 22.0625rem;
+  height: 25rem;
+  flex-shrink: 0;
+  border-radius: 1.5625rem;
+  border: 1px solid #fde3af;
+  background: #fef8ec;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center; */
+  padding: 2rem;
+}
+.solutionCard1 img {
+  width: 7.5rem;
+  height: 7.5rem;
+  flex-shrink: 0;
+}
+.investpeHeading {
+  color: #7c59cf;
+  /* font-family: Gilroy; */
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.investpeText {
+  width: 17.5625rem;
+  color: #7c59cf;
+  /* font-family: Gilroy; */
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.solutionCard2 {
+  width: 45.9375rem;
+  height: 25rem;
+  flex-shrink: 0;
+  border-radius: 1.5625rem;
+  border: 1px solid #fde3af;
+  background: #fafcfd;
+  display: flex;
+  position: relative;
+}
+.solutionCard2 p {
+  width: 23.625rem;
+  color: #1c1e21;
+  /* font-family: Gilroy; */
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-left: 2rem;
+}
+.solutionCard2 p span {
+  color: #7c59cf;
+  /* font-family: Gilroy; */
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.solutionCard2 img {
+  width: 16.19581rem;
+  height: 17.0515rem;
+  flex-shrink: 0;
+  border-radius: 1.14531rem 1.14531rem 0rem 0rem;
+  position: absolute;
+  left: 60%;
+  bottom: 0;
+}
+.solutionCard3 {
+  width: 22.0625rem;
+  height: 52.875rem;
+  flex-shrink: 0;
+  border-radius: 1.5625rem;
+  border: 1px solid #fde3af;
+  background: #fef8ec;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 0;
+}
+.solutionCard3 :nth-child(2) {
+  color: #7c59cf;
+  /* font-family: Gilroy; */
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.solutionCard3 :nth-child(3) {
+  width: 15.9375rem;
+  color: #7c59cf;
+  /* font-family: Gilroy; */
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.solutionCard3 :nth-child(4) {
+  width: 16.9375rem;
+  color: #000;
+  /* font-family: Gilroy; */
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.solutionCard3 :nth-child(5) {
+  width: 19.375rem;
+  height: 30rem;
+  flex-shrink: 0;
+}
+.solutionCard4 {
+  width: 34.75rem;
+  height: 25rem;
+  flex-shrink: 0;
+  border-radius: 1.5625rem;
+  border: 1px solid #fde3af;
+  background: #fafcfd;
+}
+.solutionCard4Heading {
+  color: #7c59cf;
+  /* font-family: Gilroy; */
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.solutionCard4Text {
+  color: #7c59cf;
+  /* font-family: Gilroy; */
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.iconList {
+  list-style-type: none;
+}
+.iconList li {
+  display: flex;
+  align-items: center;
+  width: 24.6875rem;
+  height: 2.625rem;
+  flex-shrink: 0;
+  color: #1c1e21;
+  /* font-family: Gilroy; */
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.1875rem;
+}
+.iconList li svg {
+  margin-right: 10px; /* Add space between icon and text */
+}
+.solutionCard4 p {
+  padding-left: 2.5rem;
+}
+.iconList5 {
+  list-style-type: none;
+}
+.iconList5 li {
+  display: flex;
+  align-items: center;
+
+  width: 30rem;
+  color: #1c1e21;
+  /* font-family: Gilroy; */
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 2rem;
+}
+.iconList5 li svg {
+  width: 1.3125rem;
+  height: 1.3125rem;
+  flex-shrink: 0;
+  margin-right: 10px;
+}
+.solutionCard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+/* .box{
+    padding: 20px;
+  text-align: center;
+} */
+.spanRows {
+  grid-row: span 2;
+  grid-column: 3;
+}
+.bar {
+  width: 93.938rem;
+  height: 0.0625rem;
+  background: #777;
+  margin: 5rem auto;
+}
+
+/* partner section */
+.partnersSection {
+  width: 120rem;
+  height: 50rem;
+  background: #fff;
+  display: flex;
+  margin: 0 auto;
+  gap: 5rem;
+  padding: 5rem;
+}
+.partnersSectionText {
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.partnersSectionText p {
+  width: 40rem;
+  color: #777;
+  /* font-family: Gilroy; */
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.partnersSectionImg {
+  height: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.partnersSectionImg1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem;
+  align-items: center;
+}
+
+.partnersSectionImg1 img {
+  width: auto;
+  height: auto;
+}
+
+.partnersSectionImg2 {
+  display: flex;
+  gap: 5rem;
+}
+.partnersSectionImg2 div {
+  width: 16.6875rem;
+  height: 10.1875rem;
+  flex-shrink: 0;
+  border-radius: 3.125rem;
+  background: #b1b1b1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.partnersSectionImg2 div img {
+  width: 12.875rem;
+  height: 4.875rem;
+  flex-shrink: 0;
+}
+.reachOutSection {
+  width: 96.125rem;
+  height: 58rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+  padding: 5rem;
+  flex-shrink: 0;
+  border-radius: 3.125rem;
+  background: linear-gradient(180deg, #fec175 0%, #fb9077 100%);
+}
+.reachOutSectionHeading {
+  color: #000;
+  /* font-family: Gilroy; */
+  font-size: 2.625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.1875rem;
+}
+.reachOutSectionText {
+  width: 32.6875rem;
+  color: #474747;
+  /* font-family: Gilroy; */
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.1875rem;
+}
+.inputSection {
+  display: flex;
+  justify-content: space-between;
+}
+.inputForm {
+  display: flex;
+  flex-direction: column;
+}
+.inputForm label {
+  color: #474747;
+  /* font-family: Gilroy; */
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.1875rem;
+}
+.inputForm input {
+  width: 30.5rem;
+  height: 4.6875rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: #fff;
+  margin-bottom: 5rem;
+}

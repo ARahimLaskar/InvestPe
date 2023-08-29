@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 120rem;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+/* For laptop-sized screens */
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    max-width: 960px;
+  }
+  /* Additional styling adjustments for laptops */
+}
+
+/* For tablet-sized screens */
+@media (max-width: 767px) {
+  body {
+    max-width: 100%;
+  }
+  /* Additional styling adjustments for tablets */
+}

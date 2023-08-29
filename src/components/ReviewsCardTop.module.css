@@ -1,0 +1,38 @@
+.revCardTop {
+  width: 16.3125rem;
+  height: 20.875rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: #f3f3f3;
+  position: relative;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.revCardTop img {
+  position: absolute;
+  top: -20%;
+  right: 20%;
+}
+.revCardTop div p:first-child {
+  padding-top: 7rem;
+}
+.revCardTop div p {
+  width: 12.0625rem;
+  height: 2.8125rem;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.quote {
+  width: 2.0625rem;
+  height: 2.0625rem;
+  flex-shrink: 0;
+  color: #7064c4;
+}

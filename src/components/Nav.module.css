@@ -1,0 +1,66 @@
+.topStripe {
+  display: flex;
+}
+.topStripe img {
+  width: 120rem;
+  height: 1.80663rem;
+  flex-shrink: 0;
+  margin: 0 auto;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #171e27;
+  width: 103.375rem;
+  height: 7.5rem;
+  flex-shrink: 0;
+  position: relative;
+  top: -2px;
+  margin: 0 auto;
+  padding: 0 8.2rem;
+}
+
+.logo p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+  top: -40px;
+  left: 110px;
+}
+
+.searchBox {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  width: 30.8125rem;
+  height: 2.375rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: #81878c;
+}
+.searchBox svg {
+  width: 1.125rem;
+  height: 1.125rem;
+  flex-shrink: 0;
+  padding: 1rem;
+}
+.searchBox input {
+  color: #fff;
+  /* font-family: Gilroy; */
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #81878c;
+  border: none;
+  width: 100%;
+}
+::placeholder {
+  color: white;
+}
